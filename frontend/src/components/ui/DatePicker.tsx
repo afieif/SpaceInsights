@@ -8,7 +8,7 @@ export function DatePicker({ label, date, onChange }: { label: string; date: Dat
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline" className="flex items-center justify-between w-full sm:w-[200px]">
+        <Button variant="outline" className="flex items-center justify-between w-full sm:w-[250px]">
           {date ? format(date, "PPP") : `Select ${label}`}
           <CalendarIcon className="ml-2 h-4 w-4 text-secondary" />
         </Button>
