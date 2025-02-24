@@ -86,7 +86,7 @@ export default function NotificationFeed() {
           placeholder="Search notifications..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="mt-3 w-full"
+          className="my-1 w-full"
         />
         {notificationList.length > 0 ? (
           notificationList
