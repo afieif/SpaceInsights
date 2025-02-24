@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { extractSummary } from '../utils/extractSummary.js';
 import { getCache, setCache } from '../utils/cache.js'; // Import caching utilities
+import { NASA_API_KEY } from "../utils/key.js";
 
-const NASA_API_KEY = process.env.NASA_API_KEY;
 
 export const fetchNotifications = async () => {
   const cacheKey = `nasa-notifications`;

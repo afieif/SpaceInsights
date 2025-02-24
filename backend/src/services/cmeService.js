@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getCache, setCache } from "../utils/cache.js"; // Import caching utilities
+import { NASA_API_KEY } from "../utils/key.js";
 
-const NASA_API_KEY = process.env.NASA_API_KEY;
 
 export const fetchCME = async (startDate, endDate) => {
   const cacheKey = `cme-${startDate}-${endDate}`; // Unique key per date range

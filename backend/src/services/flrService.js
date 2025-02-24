@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getCache, setCache } from "../utils/cache.js";
+import { NASA_API_KEY } from "../utils/key.js";
 
-const NASA_API_KEY = process.env.NASA_API_KEY;
 
 export const fetchFLR = async (startDate, endDate) => {
   const cacheKey = `flr_${startDate}_${endDate}`;

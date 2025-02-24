@@ -1,7 +1,6 @@
 import axios from "axios";
 import { getCache, setCache } from "../utils/cache.js";
-
-const NASA_API_KEY = process.env.NASA_API_KEY;
+import { NASA_API_KEY } from "../utils/key.js";
 
 export const fetchApod = async () => {
   const currentDate = new Date();
