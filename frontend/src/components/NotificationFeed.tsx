@@ -2,7 +2,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { useEffect, useState, useMemo } from "react";
-import { fetchNasaNotifications, Notification } from "../services/nasaService";
+import { fetchNasaNotifications, Notification } from "../services/notificationService";
 
 export default function NotificationFeed() {
   const [notifications, setNotifications] = useState<Notification[]>([]);

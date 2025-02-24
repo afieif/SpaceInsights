@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchApod, ApodResponse } from "../services/nasaService";
+import { fetchApod, ApodResponse } from "../services/apodService";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function Banner() {

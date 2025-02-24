@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchCME, CMEAnalysis } from "../services/nasaService";
+import { fetchCME, CMEAnalysis } from "../services/cmeService";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, subDays, addDays, differenceInDays } from "date-fns";

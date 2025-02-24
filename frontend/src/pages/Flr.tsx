@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchFLR, FlareEvent } from "../services/nasaService";
+import { fetchFLR, FlareEvent } from "../services/flareService";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { format, subDays, addDays, differenceInDays } from "date-fns";

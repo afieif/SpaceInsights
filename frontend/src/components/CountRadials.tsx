@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { fetchEventCounts, EventCounts } from "../services/nasaService"
+import { fetchEventCounts, EventCounts } from "../services/eventCountService"
 import {
   Card,
   CardContent,
