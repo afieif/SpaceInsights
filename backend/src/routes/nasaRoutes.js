@@ -7,11 +7,11 @@ import { getFLR } from '../controllers/flrController.js';
 
 const router = express.Router();
 
-router.get('notifications', getNotifications);
-router.get('apod', getApod);
-router.get("event-counts", getEventCounts);
-router.get("cme", getCME);
-router.get("flr", getFLR);
+router.get('/notifications', getNotifications);
+router.get('/apod', getApod);
+router.get("/event-counts", getEventCounts);
+router.get("/cme", getCME);
+router.get("/flr", getFLR);
 
 
 
