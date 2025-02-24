@@ -77,16 +77,16 @@ export default function NotificationFeed() {
 
   return (
     <Card className="w-full h-[100%] mt-2 md:w-2/5 md:mt-0">
-      <CardHeader className="px-2">
+      <CardHeader>
         <CardTitle>Notifications</CardTitle>
         <CardDescription>Updates on the latest space weather observations</CardDescription>
+      </CardHeader>
         <Input
           placeholder="Search notifications..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="mt-3 w-full"
         />
-      </CardHeader>
       <div className="p-2 h-[75%] overflow-y-scroll rounded-md">
         {notificationList.length > 0 ? (
           notificationList
