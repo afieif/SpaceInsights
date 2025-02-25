@@ -31,7 +31,7 @@ http://localhost:5173
 Dashboard displaying space weather events and the Astronomy Picture of the Day.
 
 
-![image](https://github.com/user-attachments/assets/e8fb4670-623a-48d3-9795-9bd94dc83c80)
+https://github.com/user-attachments/assets/e8fb4670-623a-48d3-9795-9bd94dc83c80
 
 
 
